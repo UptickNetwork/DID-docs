@@ -2,10 +2,10 @@
 id: features
 title: Features
 sidebar_label: Features
-description: Uptick ID Wallet app main features.
+description: Privado ID Wallet app main features.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier
@@ -39,7 +39,7 @@ Your **private profile** generates a unique identifier for the organization you 
 
 ## Switch Network
 
-Switching networks is also available on Uptick ID. You just need to reach the Settings menu and tap the network you would like to change to:
+Switching networks is also available on Privado ID. You just need to reach the Settings menu and tap the network you would like to change to:
 
 <div align="center">
 <img src={useBaseUrl("img/network-select.png")} width="500"/>

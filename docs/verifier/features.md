@@ -5,7 +5,7 @@ sidebar_label: Features
 description: Verifier main features.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - ID holder
   - verifier
   - selective disclosure

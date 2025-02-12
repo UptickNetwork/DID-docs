@@ -26,7 +26,7 @@
 /**
  * styles for React Toggle
  * copied over because we want to allow user to swizzle it and modify the css
- * and also to make sure its compatible with our dark mode
+ * and also to make sure its compatible with PrivadoID dark mode
  * https://github.com/aaronshaf/react-toggle/blob/master/style.css
  */
 :global(.react-toggle) {

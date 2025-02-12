@@ -5,7 +5,7 @@ sidebar_label: Issue Credentials via CLI
 description: Learn how to Issue Credentials via CLI.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - issuer node
   - claim
   - verifiable credentials
@@ -34,7 +34,7 @@ This is an alternative to the following: [<ins>Create Issuer ID</ins>](/docs/iss
 :::
 
 ```bash
-# NOTE: dXNlci1pc3N1ZXI6cGFzc3dvcmQtaXNzdWVy is a Basic HTTP Authorization as base64(user-issuer:password-issuer) from our .env-issuer file
+# NOTE: dXNlci1pc3N1ZXI6cGFzc3dvcmQtaXNzdWVy is a Basic HTTP Authorization as base64(user-issuer:password-issuer) from PrivadoID .env-issuer file
 curl --location 'http://localhost:3001/v1/identities' \
 --header 'Authorization: Basic dXNlci1pc3N1ZXI6cGFzc3dvcmQtaXNzdWVy' \
 --header 'Content-Type: application/json' \
@@ -92,9 +92,9 @@ Learn how to create credentials on [<ins>the Issuer Node guide</ins>](issuer-nod
 
 #### Using a CLI
 
-Before creating a credential, the identifier of the service/person is needed. To retrieve this, the `identifier` can be copied from the Uptick ID app to the clipboard.
+Before creating a credential, the identifier of the service/person is needed. To retrieve this, the `identifier` can be copied from the Privado ID app to the clipboard.
 
-!["ID Within Uptick ID App"](/img/polygonid-app-id.png)
+!["ID Within Privado ID App"](/img/polygonid-app-id.png)
 
 :::note
 
@@ -140,19 +140,19 @@ curl --location --request GET 'http://localhost:3001/v1/did:iden3:uptick:origin:
 #   {"@context":["https://www.w3.org/2018/credentials/v1","https://schema.iden3.io/core/jsonld/iden3proofs.jsonld","https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v3.json-ld"],"credentialSchema":{"id":"https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json/KYCAgeCredential-v3.json","type":"JsonSchemaValidator2018"},"credentialStatus":{"id":"https://unique-forwaring-or-public-url.ngrok-free.app/v1/did%3Apolygonid%3Apolygon%3AOrigin%3A2qPdb2hNczpXhkTDXfrNmmt9fGMzfDHewUnqGLahUQ/claims/revocation/status/2512063162","revocationNonce":2512063162,"type":"SparseMerkleTreeProof"},"credentialSubject":{"birthday":19960424,"documentType":2,"id":"did:iden3:uptick:origin:2qEsg1AeTohAq6Euc3hBaDapfLVfQiWS7DUfvutYEq","type":"KYCAgeCredential"},"id":"http://localhost:3001/v1/did:iden3:uptick:origin:2qPdb2hNczpXhkTDXfrNmmt9fGMzfDHewUnqGLahYE/claims/b1eab5be-dea3-11ed-8f7d-0242ac1e0005","issuanceDate":"2023-04-19T11:16:56.433871253Z","issuer":"did:iden3:uptick:origin:2qPdb2hNczpXhkTDXfrNmmt9fGMzfDHewUnqGLahYE","proof":[{"type":"BJJSignature2021","issuerData":{"id":"did:iden3:uptick:origin:2qPdb2hNczpXhkTDXfrNmmt9fGMzfDHewUnqGLahYE","state":{"claimsTreeRoot":"78b7651adb5d063553f7fdc11d279a3e307880aef6dec2b347abf0df53a11d27","value":"....
 ```
 
-### Issuing Credential To Uptick ID Wallet User
+### Issuing Credential To Privado ID Wallet User
 
-This will walk you through the steps of issuing a credential to the Uptick ID wallet app.
+This will walk you through the steps of issuing a credential to the Privado ID wallet app.
 
 :::note
 
-To learn how to issue credentials to a Uptick ID Wallet User, please refer to the [<ins>Issuer Node Guide</ins>](issuer-node-guide.md#schemas).
+To learn how to issue credentials to a Privado ID Wallet User, please refer to the [<ins>Issuer Node Guide</ins>](issuer-node-guide.md#schemas).
 
 :::
 
 #### Using a CLI
 
-In order to get the credential on the Uptick ID App, the credential QR Code payload is needed.
+In order to get the credential on the Privado ID App, the credential QR Code payload is needed.
 
 ```bash
 curl --location 'http://localhost:3001/v1/did:iden3:uptick:origin:2qPdb2hNczpXhkTDXfrNmmt9fGMzfDHewUnqGLahYE/claims/b1eab5be-dea3-11ed-8f7d-0242ac1e0005/qrcode' \
@@ -166,9 +166,9 @@ Take this JSON data, copy, and paste into [https://qr.io](https://qr.io).
 
 !["QR.io"](/img/qrio.png)
 
-With the Uptick ID app, open it up and scan the QR code.
+With the Privado ID app, open it up and scan the QR code.
 
-!["Uptick ID App Adding Credential"](/img/polygonid-app-claim.png)
+!["Privado ID App Adding Credential"](/img/polygonid-app-claim.png)
 
 <!-- ### Verifying Credential
 
@@ -184,7 +184,7 @@ A quick way to validate this KYCAge Claim is to use [https://verifier-demo.polyg
 
 !["Verifier Verification Prompt"](/img/verifier-verification.png)
 
-!["Uptick ID App Generating Proof"](/img/polygonid-app-proof.png)
+!["Privado ID App Generating Proof"](/img/polygonid-app-proof.png)
 
 !["Verifier Proof Verified"](/img/verifier-success-verified.png) -->
 

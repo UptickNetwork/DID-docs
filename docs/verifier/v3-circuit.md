@@ -5,7 +5,7 @@ sidebar_label: V3 circuit (Beta)
 description: Verifier main features.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - ID holder
   - circuit
   - v3

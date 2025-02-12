@@ -5,7 +5,7 @@ sidebar_label: Add Profile
 description: Add Profile API.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier
@@ -13,7 +13,7 @@ keywords:
   - profile
 ---
 
-This method adds a profile if there isn't already one associated with the identity derived from the private key and stored in the Uptick ID SDK.
+This method adds a profile if there isn't already one associated with the identity derived from the private key and stored in the Privado ID SDK.
 
 ```dart
   Future<void> addProfile(

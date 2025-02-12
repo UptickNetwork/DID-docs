@@ -5,7 +5,7 @@ sidebar_label: Update Credentials
 description: The credentials stored on the SDK can be updated using the credential ID.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier

@@ -2,10 +2,10 @@
 id: on-chain-overview
 title: Overview
 sidebar_label: Overview
-description: Learn how on-chain issuance works on Uptick ID.
+description: Learn how on-chain issuance works on Privado ID.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - on-chain issuer
   - claim
   - verifiable credentials

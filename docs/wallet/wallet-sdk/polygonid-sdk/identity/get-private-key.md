@@ -5,7 +5,7 @@ sidebar_label: Get Private Key
 description: Get the identity private key from a secret.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier

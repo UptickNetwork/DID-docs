@@ -5,7 +5,7 @@ sidebar_label: Overview
 description: Issuer Node Core API description and its components.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - issuer node
   - claim
   - verifiable credentials
@@ -17,7 +17,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Issuer Node Core API
 
-The Issuer Node Core API is ideal for users who need multiple identities and for **integrator profiles, who want to create solutions based on Uptick ID functionalities and might be interested in having access to low level information** such as Merkle Trees.
+The Issuer Node Core API is ideal for users who need multiple identities and for **integrator profiles, who want to create solutions based on Privado ID functionalities and might be interested in having access to low level information** such as Merkle Trees.
 
 <div align="center">
 <img src= {useBaseUrl("img/3001.png")} align="center" />
@@ -33,7 +33,7 @@ The [Issuer Node](https://github.com/0xPolygonID/issuer-node) comprises the foll
 
 - **Redis**: [Redis](https://redis.io/) is used for caching the schemas that we use in the Issuer Node. The schemas are downloaded from IPFS and stored on Redis. This way, every time the Issuer Node issues a credential, it doesn't need to fetch the schemas from an external source; it can fetch it directly from Redis. This boosts the performance of the application.
 
-- **DB**: This container is used as the data source for the Issuer Node. In our implementation of the Issuer Node, we have used Postgres as the database. It is where all the data related to issued credentials are stored.
+- **DB**: This container is used as the data source for the Issuer Node. In PrivadoID implementation of the Issuer Node, we have used Postgres as the database. It is where all the data related to issued credentials are stored.
 
 :::note
 

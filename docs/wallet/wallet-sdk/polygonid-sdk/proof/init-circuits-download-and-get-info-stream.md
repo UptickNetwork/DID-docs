@@ -5,7 +5,7 @@ sidebar_label: Initialize Circuits Download and Get Info Stream
 description: The method to initialize the download of circuits and get the information stream.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - proof
   - sdk
   - circuits

@@ -2,10 +2,10 @@
 id: on-chain-tutorial
 title: Tutorial
 sidebar_label: Tutorial
-description: Learn how on-chain issuance works on Uptick ID through a simple tutorial.
+description: Learn how on-chain issuance works on Privado ID through a simple tutorial.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - on-chain issuer
   - claim
   - verifiable credentials
@@ -41,7 +41,7 @@ There are two main components in this application:
 1. npm => 9.x.x
 1. docker => 20.x
 1. docker-compose => 2.23.x
-1. Uptick ID wallet app
+1. Privado ID wallet app
 1. [Ngrok](https://ngrok.com/)
 
 ## How to run the On-chain Issuer
@@ -122,10 +122,10 @@ SUPPORTED_STATE_CONTRACTS="137=0x624ce98D2d27b20b8f8d521723Df8fC4db71D79D"
 
 1. Go to: http://localhost:3000
 
-Don't forget to download and install the Uptick ID wallet app before you go the next steps.
+Don't forget to download and install the Privado ID wallet app before you go the next steps.
 
-- For Android: <a href="https://play.google.com/store/apps/details?id=com.polygonid.wallet" target="_blank">Uptick ID on Google Play</a>
-- For iOS: <a href="https://apps.apple.com/us/app/polygon-id/id1629870183" target="_blank">Uptick ID on the App Store</a>
+- For Android: <a href="https://play.google.com/store/apps/details?id=com.polygonid.wallet" target="_blank">Privado ID on Google Play</a>
+- For iOS: <a href="https://apps.apple.com/us/app/polygon-id/id1629870183" target="_blank">Privado ID on the App Store</a>
 
 ## Issue and fetch credential
 
@@ -137,7 +137,7 @@ Don't forget to download and install the Uptick ID wallet app before you go the 
     <img width="300" src="/img/select_an_issuer.png"></img>
 </div>
 
-3. Scan the QR code with your Uptick ID wallet app and follow the instructions on the application.
+3. Scan the QR code with your Privado ID wallet app and follow the instructions on the application.
 
 <div align="center">
     <img width="300" src="/img/onchain-issuer-2.png"></img>
@@ -161,7 +161,7 @@ Don't forget to download and install the Uptick ID wallet app before you go the 
     <img width="600" src="/img/onchain-issuer-5.png"></img>
 </div>
 
-7. Clicking on **Get Claim** will finally lead to the QR Code used to fetch the credential with MTP proof. Here we are making a request to the on-chain issuer node. This node then saves this claim in a contract address. Scan it with the Uptick ID wallet.
+7. Clicking on **Get Claim** will finally lead to the QR Code used to fetch the credential with MTP proof. Here we are making a request to the on-chain issuer node. This node then saves this claim in a contract address. Scan it with the Privado ID wallet.
 
 <div align="center">
     <img width="500" src="/img/onchain-issuer-6.png"></img>

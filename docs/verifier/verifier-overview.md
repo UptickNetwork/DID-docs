@@ -5,7 +5,7 @@ sidebar_label: Overview
 description: Verifier definition and SDK types.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - ID holder
   - issuer
   - verifier
@@ -18,9 +18,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 A Verifier is any web2 or web3 platform that wants to authenticate users based on their Credentials.
 
-Verifiers can set up queries based on **users’ existing Credentials** collected from a broad set of [Issuers](/docs/issuer/issuer-overview.md). A [Query](/docs/verifier/verification-library/zk-query-language.md) encapsulates the criteria that a user must match to authenticate, such as “must be a member of XYZ DAO” or “must be over 18 years old”. Uptick ID provides a seamless, customized and privacy-based authentication experience to users.
+Verifiers can set up queries based on **users’ existing Credentials** collected from a broad set of [Issuers](/docs/issuer/issuer-overview.md). A [Query](/docs/verifier/verification-library/zk-query-language.md) encapsulates the criteria that a user must match to authenticate, such as “must be a member of XYZ DAO” or “must be over 18 years old”. Privado ID provides a seamless, customized and privacy-based authentication experience to users.
 
-The request of the Verifier is designed using our fully expressive [zk Query Language](/docs/verifier/verification-library/zk-query-language.md) and encapsulated into a QR code (or via deep linking) to be shown to the user. The user scans the QR code with its [Wallet](/docs/wallet/wallet-overview.md) to prompt the proof generation.
+The request of the Verifier is designed using PrivadoID fully expressive [zk Query Language](/docs/verifier/verification-library/zk-query-language.md) and encapsulated into a QR code (or via deep linking) to be shown to the user. The user scans the QR code with its [Wallet](/docs/wallet/wallet-overview.md) to prompt the proof generation.
 
 The verification process doesn’t involve any interaction between the Verifier and the Issuer of the requested credential. As part of the Query, the Verifier includes the identifiers of the trusted issuers. For example, a Verifier should add XYZ DAO as the only trusted Issuer when verifying that an individual is a member of XYZ DAO. The XYZ DAO doesn’t need to accept nor interact with the Verifier.
 
@@ -42,8 +42,8 @@ The process of verifying user information based on their credentials can happen 
 
 You can quickly try out the Verification experience by following the steps below:
 
-- Download the Uptick ID Wallet App and create an Identity.
-  - For Android: <a href="https://play.google.com/store/apps/details?id=com.polygonid.wallet" target="_blank">Uptick ID on Google Play</a>
-  - For iOS: <a href="https://apps.apple.com/us/app/polygon-id/id1629870183" target="_blank">Uptick ID on the App Store</a>
+- Download the Privado ID Wallet App and create an Identity.
+  - For Android: <a href="https://play.google.com/store/apps/details?id=com.polygonid.wallet" target="_blank">Privado ID on Google Play</a>
+  - For iOS: <a href="https://apps.apple.com/us/app/polygon-id/id1629870183" target="_blank">Privado ID on the App Store</a>
 - Fetch a credential from <a href="https://user-ui:password-ui@issuer-ui.polygonid.me">the Issuer Node UI testing environment</a>.
 - Verify it on the [Demo Verifier](https://verifier-demo.polygonid.me/).

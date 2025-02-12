@@ -5,7 +5,7 @@ sidebar_label: Configuration
 description: Learn how to configure the API
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - ID holder
   - issuer
   - verifier

@@ -5,7 +5,7 @@ sidebar_label: ZK Query Language
 description: Learn how to build verification requests with the ZK query language.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - verifier
   - on-chain
   - off-chain
@@ -88,7 +88,7 @@ const proofRequest: protocol.ZKPRequest = {
  
   <TabItem value="on-chain">
 
-Please, check out our [Onchain verification tutorial to build a query](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
+Please, check out PrivadoID [Onchain verification tutorial to build a query](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
 
 Corresponding QR Code
 
@@ -163,7 +163,7 @@ const proofRequest: protocol.ZKPRequest = {
 </TabItem>
 <TabItem value="on-chain">
 
-Please, check out our [Onchain verification tutorial to build a query](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
+Please, check out PrivadoID [Onchain verification tutorial to build a query](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
 
 Corresponding QR Code
 
@@ -238,7 +238,7 @@ const proofRequest: protocol.ZKPRequest = {
 </TabItem>
 <TabItem value="on-chain">
 
-Please, check out our [Onchain verification tutorial to build a query](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
+Please, check out PrivadoID [Onchain verification tutorial to build a query](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
 
 Corresponding QR Code\*\*
 
@@ -315,7 +315,7 @@ const proofRequest: protocol.ZKPRequest = {
 </TabItem>
 <TabItem value="on-chain">
 
-Please, check out our [Onchain verification tutorial to build a query](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
+Please, check out PrivadoID [Onchain verification tutorial to build a query](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
 
 Corresponding QR Code
 
@@ -389,7 +389,7 @@ const proofRequest: protocol.ZKPRequest = {
 </TabItem>
 <TabItem value="on-chain">
 
-Please, check out our [Onchain verification tutorial to build a query](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
+Please, check out PrivadoID [Onchain verification tutorial to build a query](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
 
 Corresponding QR Code
 
@@ -464,7 +464,7 @@ const proofRequest: protocol.ZKPRequest = {
 </TabItem>
 <TabItem value="on-chain">
 
-Please, check out our [Onchain verification tutorial to build a query](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
+Please, check out PrivadoID [Onchain verification tutorial to build a query](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
 
 Corresponding QR Code
 
@@ -544,7 +544,7 @@ const proofRequest: protocol.ZKPRequest = {
 </TabItem>
 <TabItem value="on-chain">
 
-Please, check out our [<ins>Onchain verification tutorial to build a query</ins>](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
+Please, check out PrivadoID [<ins>Onchain verification tutorial to build a query</ins>](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
 
 Corresponding QR Code
 
@@ -619,7 +619,7 @@ const proofRequest: protocol.ZKPRequest = {
 </TabItem>
 <TabItem value="on-chain">
 
-Please, check out our [<ins>Onchain verification tutorial to build a query</ins>](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
+Please, check out PrivadoID [<ins>Onchain verification tutorial to build a query</ins>](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
 
 Corresponding QR Code
 
@@ -694,7 +694,7 @@ const proofRequest: protocol.ZKPRequest = {
 </TabItem>
 <TabItem value="on-chain">
 
-Please, check out our [<ins>Onchain verification tutorial to build a query</ins>](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
+Please, check out PrivadoID [<ins>Onchain verification tutorial to build a query</ins>](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
 
 Corresponding QR Code
 
@@ -769,7 +769,7 @@ const proofRequest: protocol.ZKPRequest = {
 </TabItem>
 <TabItem value="on-chain">
 
-Please, check out our [<ins>Onchain verification tutorial to build a query</ins>](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
+Please, check out PrivadoID [<ins>Onchain verification tutorial to build a query</ins>](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
 
 Corresponding QR Code
 
@@ -845,7 +845,7 @@ const proofRequest: protocol.ZKPRequest = {
 </TabItem>
 <TabItem value="on-chain">
 
-Please, check out our [<ins>Onchain verification tutorial to build a query</ins>](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
+Please, check out PrivadoID [<ins>Onchain verification tutorial to build a query</ins>](/docs/verifier/on-chain-verification/overview.md) to learn more how to set zk request for onchain
 
 Corresponding QR Code
 

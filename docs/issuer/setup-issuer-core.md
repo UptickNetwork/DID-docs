@@ -5,7 +5,7 @@ sidebar_label: Setup Guide
 description: Learn how to set up an Issuer Core API.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - issuer node
   - claim
   - verifiable credentials

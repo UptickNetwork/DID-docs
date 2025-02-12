@@ -5,7 +5,7 @@ sidebar_label: Get Proofs
 description: The getProofs() function uses identity to generate the zero-knowledge proofs requested by the Iden3Message Entity.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier

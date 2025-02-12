@@ -5,7 +5,7 @@ sidebar_label: Get Stack Trace
 description: "Get the entire Stack Trace of the latest flow execution."
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier

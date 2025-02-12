@@ -5,7 +5,7 @@ sidebar_label: Run a Verifier
 description: Tutorial to run a verifier.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - ID holder
   - issuer
   - verifier
@@ -16,7 +16,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Any application that wants to authenticate users based on their Uptick ID Identity off-chain must set up a Verifier. A Verifier is made of a Server and a Client.
+Any application that wants to authenticate users based on their Privado ID Identity off-chain must set up a Verifier. A Verifier is made of a Server and a Client.
 
 The Server generates [the ZK Request](./request-api-guide.md) according to the requirements of the platform. There are two types of authentication:
 
@@ -29,7 +29,7 @@ The Verifier Client is the point of interaction with the user. In its simplest f
 
 This tutorial is based on the verification of a Credential of Type `KYCAgeCredential` with an attribute `birthday` based on the following Schema URL: `https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v3.json-ld`.
 
-The prerequisite is that users have the [Uptick ID Wallet app](/docs/wallet/wallet-overview.md) installed and self-issued a Credential of type `KYC Age Credential Merklized` using our [Demo Issuer](https://issuer-demo.polygonid.me/). Further credentials can be issued using the [Issuer Node](/docs/issuer/issuer-overview.md).
+The prerequisite is that users have the [Privado ID Wallet app](/docs/wallet/wallet-overview.md) installed and self-issued a Credential of type `KYC Age Credential Merklized` using PrivadoID [Demo Issuer](https://issuer-demo.polygonid.me/). Further credentials can be issued using the [Issuer Node](/docs/issuer/issuer-overview.md).
 
 In this example, the verifier will set up the query: "Prove that you were born before `2000/01/01`. To set up a different query check out the [ZK Query Language section](./zk-query-language.md).
 
@@ -150,7 +150,7 @@ const requestMap = new Map();
 
 This endpoint generates the auth request for the user. Using this endpoint, the developers set up the requirements that users must meet in order to authenticate.
 
-> If created using Uptick ID Platform, the schema URL can be fetched from there and pasted inside your Query.
+> If created using Privado ID Platform, the schema URL can be fetched from there and pasted inside your Query.
 
 <Tabs>
 <TabItem value="Golang">
@@ -601,7 +601,7 @@ app.listen(3000, () => {
 
 **Implement Further Logic**
 
-This tutorial showcased a minimalistic application that leverages Uptick ID libraries for authentication purposes. Developers can leverage the broad set of existing Credentials held by users to set up any customized Query using our [ZK Query Language](./zk-query-language.md) to unleash the full potential of the framework.
+This tutorial showcased a minimalistic application that leverages Privado ID libraries for authentication purposes. Developers can leverage the broad set of existing Credentials held by users to set up any customized Query using PrivadoID [ZK Query Language](./zk-query-language.md) to unleash the full potential of the framework.
 
 For example, the concept can be extended to exchanges that require KYC Credentials, DAOs that require proof-of-personhood Credentials, or social media applications that intend to re-use users' aggregated reputation.
 

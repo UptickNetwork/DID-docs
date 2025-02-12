@@ -4,15 +4,15 @@ const katex = require("rehype-katex");
 require("dotenv").config();
 
 module.exports = {
-  title: "Uptick ID Documentation",
-  tagline: "The official developer documentation hub for Uptick ID.",
+  title: "Privado ID Documentation",
+  tagline: "The official developer documentation hub for Privado ID.",
   url: "https://did-docs.uptick.network",
   baseUrl: "/",
   favicon: "/img/UptickNetwork_logo02.png",
-  organizationName: "Uptick ID",
+  organizationName: "Privado ID",
   projectName: "docs",
   customFields: {
-    description: "Build your next blockchain dApp using Uptick ID.",
+    description: "Build your next blockchain dApp using Privado ID.",
   },
   i18n: {
     defaultLocale: "en",
@@ -32,7 +32,7 @@ module.exports = {
     announcementBar: {
       id: "learn_more",
       content:
-        'Uptick ID spins out as Privado ID.<a class="announcement-link" rel="noopener noreferrer" href="https://www.privado.id/blog/introducing-privado-id-moving-beyond-polygon-to-deliver-independent-privacy-preserving-identity-solutions">Official Announcement</a>',
+        'Privado ID spins out as Privado ID.<a class="announcement-link" rel="noopener noreferrer" href="https://www.privado.id/blog/introducing-privado-id-moving-beyond-polygon-to-deliver-independent-privacy-preserving-identity-solutions">Official Announcement</a>',
       backgroundColor: "#20232a",
       textColor: "#131313",
       isCloseable: false,
@@ -40,7 +40,7 @@ module.exports = {
     metadata: [
       {
         name: "description",
-        content: "Welcome to Uptick ID Documentation, the official documentation for Uptick ID.",
+        content: "Welcome to Privado ID Documentation, the official documentation for Privado ID.",
       },
     ],
     colorMode: {

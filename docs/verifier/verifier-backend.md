@@ -5,7 +5,7 @@ sidebar_label: Verifier Backend API
 description: Verifier Backend API.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - ID holder
   - verifier
 ---
@@ -16,7 +16,7 @@ The [Verifier Backend](https://github.com/0xPolygonID/verifier-backend) project 
 
 It is built using libraries developed by the iden3 protocol team. Below, we'll explain how to install it using Docker and how it can be used to perform zero knowledge proofs.
 
-You can try our [Verifier Backend API](https://verifier-backend.polygonid.me/) running.
+You can try PrivadoID [Verifier Backend API](https://verifier-backend.polygonid.me/) running.
 
 ## Local Installation
 
@@ -125,7 +125,7 @@ This endpoint will respond with a similar response to the following:
 }
 ```
 
-The value of the `qrCode` field is the one that should be displayed as a QR code to be scanned by the Uptick ID wallet.
+The value of the `qrCode` field is the one that should be displayed as a QR code to be scanned by the Privado ID wallet.
 
 The `sessionID` should be used to check the status of the proof. To query the status of the proof, i.e., whether it was valid or not, you should call the endpoint `/status?sessionID=975903`.
 

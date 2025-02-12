@@ -5,7 +5,7 @@ sidebar_label: Implement Android SDK
 description: Learn how to initialize and implement the Android SDK.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - android sdk
   - wallet sdk

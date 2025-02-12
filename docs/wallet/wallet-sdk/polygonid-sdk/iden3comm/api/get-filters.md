@@ -5,7 +5,7 @@ sidebar_label: Get Filters
 description: Returns a list of FilterEntity from an Iden3comm message.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier

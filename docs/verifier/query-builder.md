@@ -5,7 +5,7 @@ sidebar_label: Query Builder
 description: Learn how to use the Query Builder.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - ID holder
   - issuer
   - verifier
@@ -23,7 +23,7 @@ keywords:
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-The Query Builder, available [here](https://schema-builder.polygonid.me/query-builder), is an intuitive, web-based tool designed to simplify the creation of verification queries. It's particularly useful for verifiers looking to establish specific criteria for identity verification, such as organizational membership or age requirements. By leveraging Uptick ID, the Query Builder offers a secure and efficient method for users to authenticate identities based on these criteria.
+The Query Builder, available [here](https://schema-builder.polygonid.me/query-builder), is an intuitive, web-based tool designed to simplify the creation of verification queries. It's particularly useful for verifiers looking to establish specific criteria for identity verification, such as organizational membership or age requirements. By leveraging Privado ID, the Query Builder offers a secure and efficient method for users to authenticate identities based on these criteria.
 
 ## Features
 

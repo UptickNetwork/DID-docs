@@ -2,10 +2,10 @@
 id: add-interaction
 title: Add Interaction
 sidebar_label: Add Interaction
-description: "Save an InteractionBaseEntity in the Uptick ID Sdk."
+description: "Save an InteractionBaseEntity in the Privado ID Sdk."
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier
@@ -14,7 +14,7 @@ keywords:
   - Interaction Base Entity
 ---
 
-Save an `InteractionBaseEntity` in the Uptick ID SDK.
+Save an `InteractionBaseEntity` in the Privado ID SDK.
 
 ```dart
 Future<InteractionBaseEntity> addInteraction({

@@ -5,7 +5,7 @@ sidebar_label: Refresh Credential
 description: This method allows the refreshing of a specific credential within the SDK.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier

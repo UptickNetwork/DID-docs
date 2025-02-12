@@ -5,7 +5,7 @@ sidebar_label: Using the Google Cloud Marketplace
 description: Learn how to install the Issuer Node via Google Cloud Marketplace .
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - ID holder
   - issuer
   - verifier

@@ -5,7 +5,7 @@ sidebar_label: Browser Wallet Demo
 description: Check out a sample of a JS SDK browser application implementation.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier
@@ -18,9 +18,9 @@ keywords:
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## Demo for Uptick ID JS SDK Browser Wallet Extension
+## Demo for Privado ID JS SDK Browser Wallet Extension
 
-Uptick ID has created a [sample browser wallet extension](https://github.com/0xPolygonID/extension-demo) based on our JS SDK that lets its user fetch credentials from an Issuer and generate proof for these credentials to be presented to a Verifier.
+Privado ID has created a [sample browser wallet extension](https://github.com/0xPolygonID/extension-demo) based on PrivadoID JS SDK that lets its user fetch credentials from an Issuer and generate proof for these credentials to be presented to a Verifier.
 
 You need to [manually install the browser wallet extension](https://github.com/0xPolygonID/extension-demo#how-deploy-project-as-chrome-extension) on your machine. This wallet works like a common crypto wallet such as the MetaMask Wallet but differs in functionality.
 
@@ -32,7 +32,7 @@ Some of the content on this page is still to be updated. Please note that the "P
 
 ## Demo for JS SDK Browser Extension Wallet
 
-1. Install the Uptick ID JS SDK browser wallet extension on your machine and open it.
+1. Install the Privado ID JS SDK browser wallet extension on your machine and open it.
 
 2. When you open the extension for the first time, it prompts you to create a new wallet or import an existing wallet. Click **Create a New Wallet**.
 
@@ -170,7 +170,7 @@ Some of the content on this page is still to be updated. Please note that the "P
    </div>
    <br />
 
-   Scroll down the page to view **_Auth Response_**. Here, you can see the proof and the public signals (used to generate the proof), and the JWZ token. Copy the JWZ token and paste it on the [Uptick ID JWZ Validator](https://jwz.polygonid.me) site. Click **Validate**.
+   Scroll down the page to view **_Auth Response_**. Here, you can see the proof and the public signals (used to generate the proof), and the JWZ token. Copy the JWZ token and paste it on the [Privado ID JWZ Validator](https://jwz.polygonid.me) site. Click **Validate**.
 
    <br />
 
@@ -252,7 +252,7 @@ Some of the content on this page is still to be updated. Please note that the "P
 
 5. On the Polygon Verify website, click **Auth Info** to view details of the **_Auth Request_** (authorization requested by the user).
 
-   Scroll down the page to view **_Auth Response_**. Here, you can see the proof, the public signals (used to generate the proof), and the JWZ token. Copy the JWZ token and paste it on the [Uptick ID JWZ Validator](https://jwz.polygonid.me) site. Click **Validate**.
+   Scroll down the page to view **_Auth Response_**. Here, you can see the proof, the public signals (used to generate the proof), and the JWZ token. Copy the JWZ token and paste it on the [Privado ID JWZ Validator](https://jwz.polygonid.me) site. Click **Validate**.
 
    Upon validation, the JWZ token is broken down into three parts: **_Header_**, **_Payload_**, and **_Auth Proof_**.
 

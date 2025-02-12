@@ -2,10 +2,10 @@
 id: quick-start-demo
 title: Quick Start Demo
 sidebar_label: Quick Start Demo
-description: A quick demonstration of Uptick ID's main features.
+description: A quick demonstration of Privado ID's main features.
 keywords:
   - docs
-  - Uptick ID
+  - Privado ID
   - ID holder
   - issuer
   - verifier
@@ -16,40 +16,40 @@ keywords:
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-This tutorial is a quick demonstration of some of Uptick ID's main functionalities. To illustrate how Uptick ID works, we will walk you through some of its products and tools by following along a simple POAP use case.
+This tutorial is a quick demonstration of some of Privado ID's main functionalities. To illustrate how Privado ID works, we will walk you through some of its products and tools by following along a simple POAP use case.
 POAP stands for Proof of Attendance Protocol, which is used to prove that someone has taken part in a given event.
 
 This guide will briefly touch on the 3 roles of the [Triangle of Trust](introduction.md#core-concepts-of-privado-id-verifiable-credentials-identity-holder-issuer-and-verifier), namely the Identity Holder, the Issuer and the Verifier. For that, we will take the case of an individual who needs to prove that they were able to participate in a particular event.
 
 These are the steps we will cover in this article:
 
-1. [Set up a Uptick ID wallet](#set-up-a-polygon-id-wallet)
+1. [Set up a Privado ID wallet](#set-up-a-polygon-id-wallet)
 2. [Issue a new credential to attest to the ID Holder's attendance to the event](#issue-a-new-credential-to-attest-to-the-id-holders-event-attendance)
 3. [Fetch the newly created credential](#fetch-the-newly-created-credential)
 4. [Verify the credential validity](#verify-the-id-holder-credential)
 
-## Set up a Uptick ID wallet
+## Set up a Privado ID wallet
 
-As an Identity Holder, the individual who wants to have a credential to prove his age, for example, will need an application that can hold their credentials. In our case, we will be using the Uptick ID Wallet.
-
-:::note
-
-You can also use any Uptick ID compatible wallet. Please, check our [<ins>Ecosystem page</ins>](https://marketplace.polygonid.me/ecosystem) for other options.
-
-:::
-
-To get started with the Uptick ID Wallet, download the Uptick ID Wallet App and create an Identity:
-
-- For Android: <a href="https://play.google.com/store/apps/details?id=com.polygonid.wallet" target="_blank">Uptick ID on Google Play</a>
-- For iOS: <a href="https://apps.apple.com/us/app/polygon-id/id1629870183" target="_blank">Uptick ID on the App Store</a>
+As an Identity Holder, the individual who wants to have a credential to prove his age, for example, will need an application that can hold their credentials. In PrivadoID case, we will be using the Privado ID Wallet.
 
 :::note
 
-Uptick ID wallet is an implementation of the Wallet SDK, as a way of showcasing its possibilities. Head to [<ins>the Wallet SDK documentation</ins>](./wallet/wallet-sdk/polygonid-sdk/polygonid-sdk-overview.md) to know more about how it works.
+You can also use any Privado ID compatible wallet. Please, check PrivadoID [<ins>Ecosystem page</ins>](https://marketplace.polygonid.me/ecosystem) for other options.
 
 :::
 
-The process from downloading to creating an identity on the Uptick ID Wallet is just as it is shown below. You need to download the app, create a wallet, set up a PIN number and the wallet is ready to be used.
+To get started with the Privado ID Wallet, download the Privado ID Wallet App and create an Identity:
+
+- For Android: <a href="https://play.google.com/store/apps/details?id=com.polygonid.wallet" target="_blank">Privado ID on Google Play</a>
+- For iOS: <a href="https://apps.apple.com/us/app/polygon-id/id1629870183" target="_blank">Privado ID on the App Store</a>
+
+:::note
+
+Privado ID wallet is an implementation of the Wallet SDK, as a way of showcasing its possibilities. Head to [<ins>the Wallet SDK documentation</ins>](./wallet/wallet-sdk/polygonid-sdk/polygonid-sdk-overview.md) to know more about how it works.
+
+:::
+
+The process from downloading to creating an identity on the Privado ID Wallet is just as it is shown below. You need to download the app, create a wallet, set up a PIN number and the wallet is ready to be used.
 
 <div align="center">
     <img src={useBaseUrl("img/quick-start-demo/quick-start-demo-wallet.png")}></img>
@@ -88,7 +88,7 @@ To learn how to set up your own issuer environment by deploying an issuer node, 
 
 :::info
 
-The schema used in this demo was built using the Uptick ID Schema Builder and is available on [<ins>the Uptick ID Schema Explorer</ins>](https://schema-builder.polygonid.me/schemas/1fa99457-b2ae-4884-ae12-d658bd6abf69). Learn more about creating new schemas on [<ins>the Schema Builder UI guide</ins>](https://devs.polygonid.com/docs/issuer/schema-builder/).
+The schema used in this demo was built using the Privado ID Schema Builder and is available on [<ins>the Privado ID Schema Explorer</ins>](https://schema-builder.polygonid.me/schemas/1fa99457-b2ae-4884-ae12-d658bd6abf69). Learn more about creating new schemas on [<ins>the Schema Builder UI guide</ins>](https://devs.polygonid.com/docs/issuer/schema-builder/).
 
 :::
 
@@ -104,7 +104,7 @@ With the new schema in hand, the issuer should now be able to generate a credent
 
    :::
 
-2. Now you need to import the schema. Click on **Import Schema** and paste our previously generated schema IPFS address `ipfs://QmTSwnuCB9grYMB2z5EKXDagfChurK5MiMCS6efrRbsyVX`:
+2. Now you need to import the schema. Click on **Import Schema** and paste PrivadoID previously generated schema IPFS address `ipfs://QmTSwnuCB9grYMB2z5EKXDagfChurK5MiMCS6efrRbsyVX`:
 
    <div align="center">
        <img width="100%" src={useBaseUrl("img/quick-start-demo/import-schema.png")}></img>
@@ -112,7 +112,7 @@ With the new schema in hand, the issuer should now be able to generate a credent
 
    You may preview the schema and then Import it.
 
-3. You can go ahead and click on **Issue Credential** in the top righ-hand corner. Choose **Credential Link** on the next page and your schema on the dropdown menu ("POAP01", in our case). For this credential, we are providing a proof of attendance to an event in Paris:
+3. You can go ahead and click on **Issue Credential** in the top righ-hand corner. Choose **Credential Link** on the next page and your schema on the dropdown menu ("POAP01", in PrivadoID case). For this credential, we are providing a proof of attendance to an event in Paris:
 
 <div align="center">
     <img width="500" src={useBaseUrl("img/quick-start-demo/create-credential.png")}></img>
@@ -158,7 +158,7 @@ The ID Holder successfully retrieved the credential and it is visible on the app
 
 ## Verify the ID holder credential
 
-Here comes the third role in this tutorial: the verifier. This could be represented by an organization that needs to check the accuracy of someone's credentials. In our use case, this organization wants to verify whether the ID holder actually attended our made-up Paris event.
+Here comes the third role in this tutorial: the verifier. This could be represented by an organization that needs to check the accuracy of someone's credentials. In PrivadoID use case, this organization wants to verify whether the ID holder actually attended PrivadoID made-up Paris event.
 
 Here are the steps to verify the credential:
 
@@ -200,6 +200,6 @@ Here are the steps to verify the credential:
 
 :::info
 
-This was a quick demonstration of Uptick ID's basic functionalities. However, Uptick ID is far more complex than this. It offers a range of SSI-focused tools that allow for decentralized identity and verifiable credentials management.
+This was a quick demonstration of Privado ID's basic functionalities. However, Privado ID is far more complex than this. It offers a range of SSI-focused tools that allow for decentralized identity and verifiable credentials management.
 
 :::

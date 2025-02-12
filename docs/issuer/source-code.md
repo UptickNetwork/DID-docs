@@ -5,7 +5,7 @@ sidebar_label: Source Code
 description: Important library links.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - issuer node
   - claim
   - verifiable credentials

@@ -5,7 +5,7 @@ sidebar_label: Credential Wallet
 description: Credential Wallet components and capabilities.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier

@@ -5,7 +5,7 @@ sidebar_label: Using Kubernetes
 description: Learn how to install the Issuer Node using Kubernetes.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - ID holder
   - issuer
   - verifier

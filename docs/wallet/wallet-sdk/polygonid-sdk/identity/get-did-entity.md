@@ -5,7 +5,7 @@ sidebar_label: Get DID Entity
 description: Get the Did Entity.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier

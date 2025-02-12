@@ -5,7 +5,7 @@ sidebar_label: Features
 description: Issuer main features.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - issuer node
   - claim
   - verifiable credentials

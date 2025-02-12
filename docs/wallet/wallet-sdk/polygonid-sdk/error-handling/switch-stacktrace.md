@@ -6,7 +6,7 @@ description: "Enable stacktrace by calling the Switch Stack Trace method, which 
 to be saved."
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier

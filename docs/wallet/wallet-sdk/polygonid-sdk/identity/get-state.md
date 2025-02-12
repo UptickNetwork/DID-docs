@@ -5,7 +5,7 @@ sidebar_label: Get Identity State
 description: The getState() function returns the present state of an identity.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier

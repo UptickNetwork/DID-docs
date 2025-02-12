@@ -2,10 +2,10 @@
 id: sign
 title: Sign Message
 sidebar_label: Sign Message
-description: In the Uptick ID SDK, a message can be signed using the sign() function.
+description: In the Privado ID SDK, a message can be signed using the sign() function.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier

@@ -2,10 +2,10 @@
 id: js-sdk-example
 title: JS SDK Example
 sidebar_label: Example
-description: Steps to run different modules of the Uptick ID JS SDK with exampling code.
+description: Steps to run different modules of the Privado ID JS SDK with exampling code.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier
@@ -17,7 +17,7 @@ keywords:
 
 # JS SDK Example
 
-This tutorial shows the steps to run different modules of the Uptick ID JS SDK with exampling code. After the steps for each module, you will find a sample output which is generated when these modules are run.
+This tutorial shows the steps to run different modules of the Privado ID JS SDK with exampling code. After the steps for each module, you will find a sample output which is generated when these modules are run.
 
 ## Steps to Run Example Code
 

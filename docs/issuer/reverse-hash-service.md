@@ -5,7 +5,7 @@ sidebar_label: RHS Setup
 description: Reverse Hash Service Setup.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - issuer node
   - rhs
   - reverse hash service

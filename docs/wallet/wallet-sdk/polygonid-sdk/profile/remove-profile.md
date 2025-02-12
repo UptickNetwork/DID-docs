@@ -5,7 +5,7 @@ sidebar_label: Remove Profile
 description: Remove Profile API.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier
@@ -13,7 +13,7 @@ keywords:
   - profile
 ---
 
-This removes a profile from the identity derived from the private key and stored in the Uptick ID SDK.
+This removes a profile from the identity derived from the private key and stored in the Privado ID SDK.
 
 ```dart
   Future<void> removeProfile(

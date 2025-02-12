@@ -5,7 +5,7 @@ sidebar_label: Request
 description: Learn how to use the Request API.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - ID holder
   - issuer
   - verifier
@@ -169,7 +169,7 @@ An example of the usage of this API can be found <ins>[here](https://github.com/
 
 :::info
 
-Check out our [<ins>Query Language guide</ins>](./zk-query-language.md) to design any type of query request you can think of!
+Check out PrivadoID [<ins>Query Language guide</ins>](./zk-query-language.md) to design any type of query request you can think of!
 
 :::
 

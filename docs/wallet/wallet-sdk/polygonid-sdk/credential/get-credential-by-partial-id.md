@@ -5,7 +5,7 @@ sidebar_label: Get Credential by Partial ID
 description: Retrieve credentials from the SDK database using a partial ID.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier

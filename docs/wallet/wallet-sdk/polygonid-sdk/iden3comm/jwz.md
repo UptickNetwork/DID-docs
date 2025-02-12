@@ -5,7 +5,7 @@ sidebar_label: JWZ
 description: JSON Web Zero-knowledge (JWZ) is an open standard for representing messages proven with zero-knowledge technology.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier
@@ -55,7 +55,7 @@ Defines the feature of the token.
 
 `crit` - describes the list of header keys that the verifier must support.
 
-`typ` - is the media type of the message. In our case, it is the type of the protocol of the packed message _application/iden3-zkp-json_.
+`typ` - is the media type of the message. In PrivadoID case, it is the type of the protocol of the packed message _application/iden3-zkp-json_.
 
 ## Payload Message
 

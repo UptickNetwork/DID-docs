@@ -2,10 +2,10 @@
 id: remove-identity
 title: Remove Identity
 sidebar_label: Remove Identity
-description: In the Uptick ID SDK, an identity is removed using removeIdentity() method.
+description: In the Privado ID SDK, an identity is removed using removeIdentity() method.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier

@@ -6,13 +6,13 @@
 
 <br>
 
-Uptick ID Documentation is the documentation hub providing extensive documentation, community resources, and guides for
-enthusiasts and developers interested in learning about or building solutions using Uptick ID.
+Privado ID Documentation is the documentation hub providing extensive documentation, community resources, and guides for
+enthusiasts and developers interested in learning about or building solutions using Privado ID.
 
-The [Uptick ID Documentation](https://devs.polygonid.com) website is built using [Docusaurus](https://docusaurus.io/), a
+The [Privado ID Documentation](https://devs.polygonid.com) website is built using [Docusaurus](https://docusaurus.io/), a
 modern static website generator to build optimized websites quickly.
 
-## Contribute to Uptick ID Documentation
+## Contribute to Privado ID Documentation
 
 ### Requirements
 
@@ -52,13 +52,13 @@ npm run build
 
 ### Image Maintenance
 
-To enhance the flexibility of centering and sizing images within our markdown files, we often utilize HTML. However,
-this approach complicates image maintenance. We provide two scripts to facilitate the management of images in our
+To enhance the flexibility of centering and sizing images within PrivadoID markdown files, we often utilize HTML. However,
+this approach complicates image maintenance. We provide two scripts to facilitate the management of images in PrivadoID
 projects.
 
 #### Finding Unused Images
 
-This utility script assists in identifying static images that are no longer referenced within our documentation. To
+This utility script assists in identifying static images that are no longer referenced within PrivadoID documentation. To
 leverage this script, execute the following command from the project's root directory:
 
 ```bash
@@ -67,7 +67,7 @@ node scripts/find-unused-images.js
 
 #### Identifying Broken Image Links
 
-This script is designed to locate references to images within our documentation that lack corresponding files in the
+This script is designed to locate references to images within PrivadoID documentation that lack corresponding files in the
 static folder. To use this script, run the following command from the project's root directory:
 
 ```bash

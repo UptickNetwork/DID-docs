@@ -3,10 +3,10 @@ id: get-interactions
 title: Get Interactions
 sidebar_label: Get Interactions
 description: "Get a list of `InteractionEntity` associated to the identity previously stored
-  in the the Uptick ID Sdk."
+  in the the Privado ID Sdk."
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier
@@ -15,7 +15,7 @@ keywords:
   - Interaction Entity
 ---
 
-Get a list of `InteractionEntity` associated to the identity previously stored in the the Uptick ID SDK.
+Get a list of `InteractionEntity` associated to the identity previously stored in the the Privado ID SDK.
 
 ```dart
 Future<List<InteractionBaseEntity>> getInteractions({

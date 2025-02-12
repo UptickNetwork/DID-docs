@@ -5,7 +5,7 @@ sidebar_label: Clean Schema Cache
 description: "Clean the schema cache."
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier

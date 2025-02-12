@@ -5,7 +5,7 @@ sidebar_label: Verification
 description: Learn how to verify proofs using the API.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - ID holder
   - issuer
   - verifier

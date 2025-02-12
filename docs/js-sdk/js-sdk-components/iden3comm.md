@@ -5,7 +5,7 @@ sidebar_label: Iden3comm
 description: Iden3comm components and capabilities.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier

@@ -4,7 +4,7 @@
 - Websites and Applications: https://hackerone.com/polygon-technology
 - Smart Contracts: https://immunefi.com/bounty/polygon
 
-## Languages that our team speaks and understands.
+## Languages that PrivadoID team speaks and understands.
 Preferred-Languages: en
 
 ## Security-related job openings at Uptick.

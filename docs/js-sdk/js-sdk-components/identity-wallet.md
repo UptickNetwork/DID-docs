@@ -5,7 +5,7 @@ sidebar_label: Identity Wallet
 description: Identity Wallet components and capabilities.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier
@@ -170,7 +170,7 @@ This method generates Merkle Tree Proof (MTP) for the inclusion or non-inclusion
 
 :::info
 
-To know more about the credential's inclusion in a Merkle tree, read our [<ins>Iden3 core specification tutorials</ins>](https://docs.iden3.io/protocol/spec/#update-claims).
+To know more about the credential's inclusion in a Merkle tree, read PrivadoID [<ins>Iden3 core specification tutorials</ins>](https://docs.iden3.io/protocol/spec/#update-claims).
 
 :::
 

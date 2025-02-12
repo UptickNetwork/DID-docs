@@ -5,7 +5,7 @@ sidebar_label: Configuration
 description: Issuer custom configuration.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - issuer node
   - configuration
   - verifiable credentials

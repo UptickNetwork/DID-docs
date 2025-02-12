@@ -2,10 +2,10 @@
 id: update-interaction
 title: Update Interaction
 sidebar_label: Update Interaction
-description: "Update the states of an InteractionBaseEntity in the Uptick ID SDK."
+description: "Update the states of an InteractionBaseEntity in the Privado ID SDK."
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier
@@ -14,7 +14,7 @@ keywords:
   - Interaction Base Entity
 ---
 
-Update the states of an `InteractionBaseEntity` in the Uptick ID SDK.
+Update the states of an `InteractionBaseEntity` in the Privado ID SDK.
 
 ```dart
 Future<InteractionBaseEntity> updateInteraction({

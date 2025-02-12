@@ -5,7 +5,7 @@ sidebar_label: Display method
 description: Display method
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - issuer node
   - claim
   - verifiable credentials

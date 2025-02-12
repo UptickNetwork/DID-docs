@@ -5,7 +5,7 @@ sidebar_label: Support of custom networks and dids
 description: Ecosystem extension.
 keywords:
   - did
-  - uptick id
+  - Privado ID
   - ID holder
   - network
   - custom

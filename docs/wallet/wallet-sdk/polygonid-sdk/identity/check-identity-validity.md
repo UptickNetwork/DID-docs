@@ -5,7 +5,7 @@ sidebar_label: Check Identity Validity
 description: Checks the identity validity from a secret.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier

@@ -5,7 +5,7 @@ sidebar_label: Stack Trace Stream
 description: "Get the Stack Trace stream to can listen to it."
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier

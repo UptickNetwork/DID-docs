@@ -5,7 +5,7 @@ sidebar_label: Get DID Identifier
 description: Get DID Identifier function returns an identifier.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - holder
   - issuer
   - verifier
@@ -27,7 +27,7 @@ Future<String> getDidIdentifier({
 
 `privateKey` of the identity is a key that is used to access the sensitive information of the identity. This key is also used for generating proofs by using the credentials associated with the identity.
 
-`blockchain` is the name of the blockchain associated with the identity. In our case, it is **Polygon**.
+`blockchain` is the name of the blockchain associated with the identity. In PrivadoID case, it is **Polygon**.
 
 `network` is the type of network (Mainnet or Testnet) associated with the identity.
 

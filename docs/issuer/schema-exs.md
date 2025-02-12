@@ -5,7 +5,7 @@ sidebar_label: Schema examples
 description: Check a few schema samples.
 keywords:
   - docs
-  - uptick id
+  - Privado ID
   - issuer node
   - claim
   - verifiable credentials
