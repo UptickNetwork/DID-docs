@@ -83,14 +83,14 @@ function Footer() {
           <div className="container">
             <div className="footer_logo-row">
               <a
-                href="https://privado.id/"
+                href="https://did-docs.uptick.network/"
                 aria-current="page"
                 className="nav_logo-link is-footer w-nav-brand w--current"
               >
-                <img src="/img/UptickNetwork_logo02.svg" loading="lazy" width="113" height="36" alt="" />
+                <img src="/img/UptickNetwork_logo04(3).svg" loading="lazy" width="113" height="36" alt="" style={{ marginLeft: '5px' }} />
               </a>
 
-              <div className="footer_sm-link-wrapper">
+              <div className="footer_sm-link-wrapper" style={{ marginRight: '-260px' }}>
                 <a
                   href="https://x.com/uptickproject"
                   target="_blank"
@@ -153,7 +153,7 @@ function Footer() {
 
               </div>
             </div>
-            <div className="padding-bottom-huge"></div>
+            <div className="padding-bottom-huge" style={{ textAlign: 'center', marginTop: '20px', maxWidth: '800px', marginLeft: 'auto', marginRight: 'auto' }}>The Uptick DID component is based on PrivadoID <a href="https://www.privado.id">(https://www.privado.id)</a>, an open-source project available at this GitHub Repo Privado ID <a href="https://github.com/0xPolygonID"> Privado ID (formerly Polygon ID)</a></div>
             <div className="row">
               {links.map((linkItem, i) => (
                 <div key={i} className="col footer__col">
