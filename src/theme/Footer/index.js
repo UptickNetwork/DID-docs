@@ -87,7 +87,7 @@ function Footer() {
                 aria-current="page"
                 className="nav_logo-link is-footer w-nav-brand w--current"
               >
-                <img src="/img/UptickNetwork_logo04(3).svg" loading="lazy" width="113" height="36" alt="" style={{ marginLeft: '5px' }} />
+                <img src="/img/UptickNetwork_logo04.svg" loading="lazy" width="113" height="36" alt="" style={{ marginLeft: '5px' }} />
               </a>
 
               <div className="footer_sm-link-wrapper" style={{ marginRight: '-260px' }}>
